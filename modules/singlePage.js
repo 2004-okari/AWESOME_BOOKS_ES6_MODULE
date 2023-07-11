@@ -1,5 +1,5 @@
 // spa.js
-export function initializeSPA() {
+export default function initializeSPA() {
   const listBook = document.querySelector('.link-list');
   const newBook = document.querySelector('.link-new');
   const contact = document.querySelector('.link-contact');
