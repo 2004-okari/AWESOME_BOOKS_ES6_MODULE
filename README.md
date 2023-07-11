@@ -46,7 +46,7 @@ My awesome books project in Microverse.
 
   1. It is made to cater for mobile devices and desktops
   2. Introductory page
-  3. Menu bar that open up to give various options
+  3. Menu bar that gives various options
   4. Preview of the books page
   5. Responsive design
 
@@ -65,7 +65,7 @@ An extension to your browser
 
 Clone this repository to your desired folder:
 
-git clone [CASTONE_001](https://github.com/2004-okari/AWESOME_BOOKS_ES6_MODULE)
+git clone [ES6_AWESOME_BOOKS](https://github.com/2004-okari/AWESOME_BOOKS_ES6_MODULE)
 ### Install
 
 Install this project with:
