@@ -1,6 +1,6 @@
 import { DateTime } from './luxon.js';
 
-export const displayTime = () => {
+const displayTime = () => {
   const date = document.querySelector('.date-info');
 
   const updateTime = () => {
@@ -11,3 +11,5 @@ export const displayTime = () => {
   updateTime();
   setInterval(updateTime, 1000);
 };
+
+export default displayTime;
