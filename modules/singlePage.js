@@ -1,5 +1,5 @@
 // spa.js
-export default function initializeSPA() {
+const initializeSPA = () => {
   const listBook = document.querySelector('.link-list');
   const newBook = document.querySelector('.link-new');
   const contact = document.querySelector('.link-contact');
@@ -38,4 +38,6 @@ export default function initializeSPA() {
     section3.style.paddingTop = '160px';
     logo.innerHTML = 'Contact';
   });
-}
+};
+
+export default initializeSPA;
