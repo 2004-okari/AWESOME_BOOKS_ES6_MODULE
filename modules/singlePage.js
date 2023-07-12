@@ -11,6 +11,8 @@ export default function initializeSPA() {
   const logo = document.querySelector('.logo');
 
   const seperator = document.querySelector('.seperator');
+  section2.style.display = 'none';
+  section3.style.display = 'none';
 
   listBook.addEventListener('click', () => {
     section1.style.display = '';
